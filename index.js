@@ -44,7 +44,7 @@ function panel(output_type, block, style, icon, hide=false) {
     s += parseMarkdown(block.args[0], true);
     s +=  '<span id="heading-'+id+'">'
     if (start_closed) {
-      s += 'Click to expand'
+      s += '展开'
     }
     s += '</span>';
     s += "</h3>";
